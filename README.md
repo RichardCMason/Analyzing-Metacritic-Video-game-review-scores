@@ -18,7 +18,7 @@ I found this apparent discrepancy very interesting, so I focused the rest of my 
 
 The features that had the biggest *positive* impact on critic review score
 
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 400>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 300>
 
 And the features that had the biggest *negative* impact on user review score
 
