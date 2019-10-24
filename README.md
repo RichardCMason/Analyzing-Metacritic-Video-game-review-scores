@@ -17,9 +17,11 @@ During my analysis I made an interesting discovery: That while review scores had
 I found this apparent discrepancy very interesting, so I focused the rest of my analysis on why this difference was occuring.  At first I ran both a linear regression with Lasso regularization and random forest regression with critic scores and user scores the targets.  Here are the coefficients of important features from those analyses:
 
 The features that had the biggest *positive* impact on critic review score
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 300>
+
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 400>
 
 And the features that had the biggest *negative* impact on user review score
+
 <img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Worst_User_features.png width = 400>
 
 I realized the key insights for this project were hidden in the actual text of the critic and user reviews.  So I went about extracting the words that had the most impact on critic scores and user scores, respectively.
@@ -29,7 +31,7 @@ After running a bag of words model with regularization, here were the words most
 
 <img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Critic_words.png width = 400>
 
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_User_words.png width = 400>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/User_words.png width = 400>
 
 I decided to make another feature, called "interesting words," which are the words whose coefficients were *most* different between critics and users, i.e. their points of disagreement:
 
