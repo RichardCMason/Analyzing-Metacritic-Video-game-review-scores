@@ -11,6 +11,4 @@ The first step in this project was to scrap the metacritic website to acquire th
 During my analysis I made an interesting discovery: That while review scores had been declining steadily since the mid-90s for both users and critics, critic scores had stabilized around 2007, whereast user scores continued to decline(and still are).
 ![Critic scores time](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/critic_score_time.png)
 
-
-
-![User scores time](
+![User scores time](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/user_score_time.png)
