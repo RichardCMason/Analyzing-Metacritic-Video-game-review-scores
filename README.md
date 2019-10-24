@@ -16,7 +16,7 @@ During my analysis I made an interesting discovery: That while review scores had
 ### Regression to predict review scores
 I found this apparent discrepancy very interesting, so I focused the rest of my analysis on why this difference was occuring.  At first I ran both a linear regression with Lasso regularization and random forest regression with critic scores and user scores the targets.  Here are the coefficients of important features from those analyses:
 
-![Critic regression](
+![Critic regression](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png)
 
 ![User Regression](
 
