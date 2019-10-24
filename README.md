@@ -17,7 +17,7 @@ During my analysis I made an interesting discovery: That while review scores had
 I found this apparent discrepancy very interesting, so I focused the rest of my analysis on why this difference was occuring.  At first I ran both a linear regression with Lasso regularization and random forest regression with critic scores and user scores the targets.  Here are the coefficients of important features from those analyses:
 
 The features that had the biggest *positive* impact on critic review score
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 400>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 300>
 
 And the features that had the biggest *negative* impact on user review score
 <img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Worst_User_features.png width = 400>
@@ -34,3 +34,7 @@ After running a bag of words model with regularization, here were the words most
 I decided to make another feature, called "interesting words," which are the words whose coefficients were *most* different between critics and users, i.e. their points of disagreement:
 
 <img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Interesting_words.png width = 400>
+
+
+### Conclusion
+Some particularly noticible words will be recognized by fans of video games.  Like 'cod', 'money', 'addictive', 'duty', 'ea' . These words relate to common complaints in recent years by game players.  Perhaps the overall trend of declining video game review scores among users is actually attributable to users' enmity of just a few games and/or game developers/publishers.  
