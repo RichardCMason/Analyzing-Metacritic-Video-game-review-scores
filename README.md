@@ -7,3 +7,10 @@ Critic Scores are scores given by professional video game journalist and review 
 ### Process
 The first step in this project was to scrap the metacritic website to acquire their database of review scores.  After building a scraper and several hours later, and after appropriate data cleaning, my dataframe looked like this: 
 ![Metacritic Dataframe](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Full_dataframe.png)
+
+During my analysis I made an interesting discovery: That while review scores had been declining steadily since the mid-90s for both users and critics, critic scores had stabilized around 2007, whereast user scores continued to decline(and still are).
+![Critic scores time](
+
+
+
+![User scores time](
