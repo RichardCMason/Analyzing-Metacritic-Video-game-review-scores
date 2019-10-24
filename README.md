@@ -16,8 +16,19 @@ During my analysis I made an interesting discovery: That while review scores had
 ### Regression to predict review scores
 I found this apparent discrepancy very interesting, so I focused the rest of my analysis on why this difference was occuring.  At first I ran both a linear regression with Lasso regularization and random forest regression with critic scores and user scores the targets.  Here are the coefficients of important features from those analyses:
 
+The features that had the biggest *positive* impact on critic review score
 ![Critic regression](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png)
 
-![User Regression](
+And the features that had the biggest *negative* impact on user review score
+![User Regression](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Worst_User_features.png)
+
+I realized the key insights for this project were hidden in the actual text of the critic and user reviews.  So I went about extracting the words that had the most impact on critic scores and user scores, respectively.
 
 ### NLP analysis to provide insight into "interesting words" 
+After running a bag of words model with regularization, here were the words most indicative of a positive critic or user review:
+
+![Top Critic Words](
+
+![Top User Words](
+
+I decided to make another feature, called "interesting words," 
