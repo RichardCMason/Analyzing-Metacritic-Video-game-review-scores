@@ -18,24 +18,24 @@ I found this apparent discrepancy very interesting, so I focused the rest of my 
 
 The features that had the biggest *positive* impact on critic review score
 
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 300>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_Critic_features.png width = 250 height = 250>
 
 And the features that had the biggest *negative* impact on user review score
 
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Worst_User_features.png width = 400>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Worst_User_features.png width = 250>
 
 I realized the key insights for this project were hidden in the actual text of the critic and user reviews.  So I went about extracting the words that had the most impact on critic scores and user scores, respectively.
 
 ### NLP analysis to provide insight into "interesting words" 
 After running a bag of words model with regularization, here were the words most indicative of a positive critic or user review:
 
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Critic_words.png width = 400>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Critic_words.png width = 250>
 
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/User_words.png width = 400>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/User_words.png width = 250>
 
 I decided to make another feature, called "interesting words," which are the words whose coefficients were *most* different between critics and users, i.e. their points of disagreement:
 
-<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Interesting_words.png width = 400>
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Interesting_words.png width = 250>
 
 
 ### Conclusion
