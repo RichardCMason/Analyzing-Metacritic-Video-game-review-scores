@@ -27,7 +27,7 @@ I realized the key insights for this project were hidden in the actual text of t
 ### NLP analysis to provide insight into "interesting words" 
 After running a bag of words model with regularization, here were the words most indicative of a positive critic or user review:
 
-![Top Critic Words](
+![Top Critic Words](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_critic_words.png)
 
 ![Top User Words](
 
