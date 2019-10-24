@@ -29,8 +29,10 @@ I realized the key insights for this project were hidden in the actual text of t
 ### NLP analysis to provide insight into "interesting words" 
 After running a bag of words model with regularization, here were the words most indicative of a positive critic or user review:
 
+Words that critics tended to use in highly scoring games:
 <img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Critic_words.png width = 250>
 
+And the words that tended to be found in high user reviews:
 <img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/User_words.png width = 250>
 
 I decided to make another feature, called "interesting words," which are the words whose coefficients were *most* different between critics and users, i.e. their points of disagreement:
