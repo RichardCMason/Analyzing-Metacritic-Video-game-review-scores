@@ -33,4 +33,4 @@ After running a bag of words model with regularization, here were the words most
 
 I decided to make another feature, called "interesting words," which are the words whose coefficients were *most* different between critics and users, i.e. their points of disagreement:
 
-<img src = 
+<img src = https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Interesting_words.png width = 400>
