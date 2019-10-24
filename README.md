@@ -6,4 +6,4 @@ Critic Scores are scores given by professional video game journalist and review 
 
 ### Process
 The first step in this project was to scrap the metacritic website to acquire their database of review scores.  After building a scraper and several hours later, and after appropriate data cleaning, my dataframe looked like this: 
-![Metacritic Dataframe](/Images/Full Dataframe)
+![Metacritic Dataframe](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Full_dataframe.png)
