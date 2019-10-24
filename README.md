@@ -29,6 +29,6 @@ After running a bag of words model with regularization, here were the words most
 
 ![Top Critic Words](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_critic_words.png)
 
-![Top User Words](
+![Top User Words](https://github.com/RichardCMason/Analyzing-Metacritic-Video-game-review-scores/blob/master/Images/Top_User_words.png = 256x256)
 
 I decided to make another feature, called "interesting words," 
